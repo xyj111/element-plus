@@ -1,5 +1,5 @@
 <template>
-  <el-select v-model="value" filterable placeholder="Select">
+  <el-select v-model="value" filterable multiple placeholder="Select">
     <el-option
       v-for="item in options"
       :key="item.value"
